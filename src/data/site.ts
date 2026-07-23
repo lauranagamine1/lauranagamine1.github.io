@@ -191,17 +191,14 @@ export const EDUCATION: TimelineEntry[] = [
     organization: 'University of Engineering and Technology (UTEC)',
     period: 'Mar 2023 — Dec 2027',
     location: 'Lima, Peru',
-    points: ['Upper third of class.'],
+    points: [],
   },
   {
     title: 'International Baccalaureate — Bilingual Diploma',
     organization: 'Peruvian North American Abraham Lincoln School',
     period: 'Mar 2021 — Nov 2022',
     location: 'Lima, Peru',
-    points: [
-      'Final score: 40/45 points.',
-      'Extended Essay in Biology, specializing in microbiology.',
-    ],
+    points: [],
   },
 ]
 
@@ -209,7 +206,7 @@ export const EXPERIENCE: TimelineEntry[] = [
   {
     title: 'Active Member — ACM-W & Open Source Software Club',
     organization: 'UTEC Student Organizations',
-    period: '2025 — Present',
+    period: '2025',
     location: 'Lima, Peru',
     points: [
       'Helped establish the first university chapter dedicated to supporting women in tech, organizing networking events and research conferences.',
