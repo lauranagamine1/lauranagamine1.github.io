@@ -78,8 +78,8 @@ Colors, fonts and shadows are defined once as Tailwind theme tokens in
 
 ## Deployment
 
-The site is deployed on **Cloudflare Pages** with automatic deployments from
-GitHub.
+The site is deployed on **GitHub Pages** at https://lauranagamine1.github.io/
+via the workflow in [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
 
 **To update the live site, just push to `main`:**
 
@@ -87,17 +87,21 @@ GitHub.
 git add . && git commit -m "Update portfolio content" && git push
 ```
 
-Cloudflare rebuilds and redeploys automatically, usually within a minute or two.
-You can watch the progress in the Cloudflare dashboard under
-**Workers & Pages → your project → Deployments**.
+GitHub Actions rebuilds and redeploys automatically, usually within a couple of
+minutes. Watch progress in the repo's **Actions** tab.
 
-### Build settings
+### First-time setup
 
-If you ever need to recreate the Pages project, use:
+Pages only needs to be enabled once, in the repo's
+**Settings → Pages → Build and deployment → Source: GitHub Actions**.
 
-- **Build command:** `npm run build`
-- **Build output directory:** `dist`
-- **Framework preset:** Vite
+### Note on the repo name
+
+The repo is named `lauranagamine1.github.io`, which is what makes the site serve
+from the domain root. Because of that, `base` in
+[`vite.config.ts`](vite.config.ts) is `'/'`. If the site is ever moved to a
+differently-named repo, it would serve from `/<repo-name>/` instead and `base`
+must be changed to match, or every asset will 404.
 
 ## Accessibility
 

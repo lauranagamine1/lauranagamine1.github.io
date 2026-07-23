@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lauranagamine.pages.dev/sitemap.xml
+Sitemap: https://lauranagamine1.github.io/sitemap.xml
