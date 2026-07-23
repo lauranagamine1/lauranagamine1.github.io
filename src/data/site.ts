@@ -29,7 +29,7 @@ export const PERSON = {
   name: 'Laura Nagamine',
   role: 'Computer Science Student',
   location: 'Lima, Peru',
-  email: 'lauranagamine18@gmail.com',
+  email: 'laura.nagamine@utec.edu.pe',
   university: 'University of Engineering and Technology (UTEC)',
   intro:
     'Computer Science student passionate about software engineering, artificial intelligence, data science, and building applications that create real impact.',
@@ -58,9 +58,7 @@ export const HERO_STATS = [
 
 /** Placeholder copy — edit freely. */
 export const ABOUT_PARAGRAPHS: string[] = [
-  "I'm a Computer Science undergraduate at UTEC in Lima, Peru, with a solid analytical foundation and a record of academic dedication. I like turning complex, messy problems into software that is clear, scalable, and genuinely useful to the people using it.",
-  'My interests sit at the intersection of software engineering, artificial intelligence, and data science — from designing full stack applications and cloud architectures to training and evaluating machine learning models. I care about writing code that is maintainable, well tested, and pleasant for the next person to read.',
-  "Outside of coursework I'm an active member of ACM-W and the Open Source Software Club, where I help organize events that make tech a more welcoming space. I'm always learning something new, and I do my best work on teams that share ideas openly and push each other to improve.",
+  "I'm a Computer Science undergraduate at UTEC in Lima, Peru, with a solid analytical foundation and a record of academic dedication. I like turning complex, messy problems into software that is clear, scalable, and genuinely useful to the people using it."
 ]
 
 export const ABOUT_INTERESTS: string[] = [
@@ -154,7 +152,7 @@ export const PROJECTS: Project[] = [
   {
     title: 'Project Title Four',
     description:
-      'Short description of the project — what problem it solves, what you built, and the part you are most proud of. Replace this placeholder with your own copy.',
+      'Soon.',
     tag: 'Full Stack',
     tech: ['Spring Boot', 'React', 'PostgreSQL', 'Docker'],
     accent: 'butter',
@@ -164,7 +162,7 @@ export const PROJECTS: Project[] = [
   {
     title: 'Project Title Five',
     description:
-      'Short description of the project — what problem it solves, what you built, and the part you are most proud of. Replace this placeholder with your own copy.',
+      'Soon.',
     tag: 'Data Science',
     tech: ['Python', 'FastAPI', 'Pandas'],
     accent: 'blush',
@@ -174,7 +172,7 @@ export const PROJECTS: Project[] = [
   {
     title: 'Project Title Six',
     description:
-      'Short description of the project — what problem it solves, what you built, and the part you are most proud of. Replace this placeholder with your own copy.',
+      'Soon.',
     tag: 'Algorithms',
     tech: ['C++', 'Data Structures', 'CMake'],
     accent: 'sky',
@@ -187,14 +185,21 @@ export const PROJECTS: Project[] = [
 
 export const EDUCATION: TimelineEntry[] = [
   {
-    title: 'B.Sc. in Computer Science',
+    title: 'Berkeley Global Access',
+    organization: 'University of California, Berkeley',
+    period: 'Aug 2026 — Dec 2026',
+    location: 'Berkeley, USA',
+    points: ['I engaged in UC Berkeley culture and EECS classes.'],
+  },
+  {
+    title: 'Bachelor in Computer Science',
     organization: 'University of Engineering and Technology (UTEC)',
     period: 'Mar 2023 — Dec 2027',
     location: 'Lima, Peru',
-    points: [],
+    points: ['Especialization'],
   },
   {
-    title: 'International Baccalaureate — Bilingual Diploma',
+    title: 'International Baccalaureate: Billingual Diploma',
     organization: 'Peruvian North American Abraham Lincoln School',
     period: 'Mar 2021 — Nov 2022',
     location: 'Lima, Peru',
@@ -204,7 +209,7 @@ export const EDUCATION: TimelineEntry[] = [
 
 export const EXPERIENCE: TimelineEntry[] = [
   {
-    title: 'Active Member — ACM-W & Open Source Software Club',
+    title: 'Past Member: ACM-W & Open Source Software Club',
     organization: 'UTEC Student Organizations',
     period: '2025',
     location: 'Lima, Peru',
@@ -242,7 +247,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
   },
   {
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/your-profile',
+    href: 'https://pe.linkedin.com/in/laura-nagamine-oshiro-587500280',
     icon: FaLinkedinIn,
     accent: 'sky',
   },
@@ -254,25 +259,25 @@ export const SOCIAL_LINKS: SocialLink[] = [
   },
   {
     label: 'GitLab',
-    href: 'https://gitlab.com/your-username',
+    href: 'https://gitlab.com/lauranagamine1',
     icon: SiGitlab,
     accent: 'butter',
   },
   {
     label: 'LeetCode',
-    href: 'https://leetcode.com/your-username',
+    href: 'https://leetcode.com/u/lauranagamine/',
     icon: SiLeetcode,
     accent: 'blush',
   },
   {
     label: 'Codeforces',
-    href: 'https://codeforces.com/profile/your-username',
+    href: 'https://codeforces.com/profile/laurix?csrf_token=de8c60a11ec603d95e2de78078e0fa63',
     icon: SiCodeforces,
     accent: 'sky',
   },
   {
     label: 'Certificates',
-    href: 'https://drive.google.com/your-folder-link',
+    href: 'https://drive.google.com/drive/folders/1yyt4ODRvrEJruPRNJtSmHWrR-C9VgnV8?usp=sharing',
     icon: SiGoogledrive,
     accent: 'mint',
   },
