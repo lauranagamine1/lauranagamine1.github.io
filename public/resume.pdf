@@ -9,14 +9,11 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 4 0 R >>
 endobj
 4 0 obj
-<< /Length 371 >>
+<< /Length 140 >>
 stream
 BT /F1 26 Tf 72 700 Td (Laura Nagamine) Tj ET
 BT /F2 13 Tf 72 675 Td (Computer Science Student) Tj ET
 0.976 0.698 0.843 rg 72 660 180 3 re f
-BT /F2 12 Tf 72 620 Td (This is a placeholder resume.) Tj ET
-BT /F2 12 Tf 72 600 Td (Replace public/resume.pdf with your real resume PDF.) Tj ET
-BT /F2 12 Tf 72 580 Td (Keep the same file name so no code changes are needed.) Tj ET
 endstream
 endobj
 5 0 obj
@@ -32,10 +29,10 @@ xref
 0000000058 00000 n 
 0000000115 00000 n 
 0000000251 00000 n 
-0000000673 00000 n 
-0000000748 00000 n 
+0000000442 00000 n 
+0000000517 00000 n 
 trailer
 << /Size 7 /Root 1 0 R >>
 startxref
-818
+587
 %%EOF
