@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FEF5FA"/>
+      <stop offset="50%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F5FDF6"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F9B2D7"/>
+      <stop offset="50%" stop-color="#CFECF3"/>
+      <stop offset="100%" stop-color="#DAF9DE"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="120" cy="90" r="180" fill="#F9B2D7" opacity="0.25"/>
+  <circle cx="1090" cy="150" r="200" fill="#CFECF3" opacity="0.35"/>
+  <circle cx="800" cy="600" r="170" fill="#DAF9DE" opacity="0.3"/>
+  <text x="100" y="290" font-family="Poppins, Inter, system-ui, sans-serif" font-size="82"
+        font-weight="600" fill="#2D3748">Laura Nagamine</text>
+  <rect x="100" y="330" width="220" height="5" rx="3" fill="url(#rule)"/>
+  <text x="100" y="400" font-family="Inter, system-ui, sans-serif" font-size="36" fill="#718096">
+    Computer Science Student
+  </text>
+  <text x="100" y="460" font-family="Inter, system-ui, sans-serif" font-size="26" fill="#718096">
+    Software Engineering · Artificial Intelligence · Data Science
+  </text>
+</svg>
