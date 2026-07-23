@@ -79,6 +79,26 @@
   }
 }
 
+/*
+  Skip-to-content link. Written as a plain rule rather than `focus:` utilities
+  so the focused state always wins regardless of utility sort order — it sits
+  above the navbar (z-70) and slides in only when focused.
+*/
+.skip-link {
+  @apply fixed left-6 z-70 rounded-full bg-white px-4 py-2 text-sm font-medium text-ink shadow-lift;
+  top: 1.5rem;
+  translate: 0 -6rem;
+  opacity: 0;
+  transition:
+    translate 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.skip-link:focus {
+  translate: 0 0;
+  opacity: 1;
+}
+
 @utility bg-aurora {
   /* Muted pastel wash used behind the hero and section accents */
   background-image:

@@ -18,10 +18,7 @@ function App() {
       <Navbar />
 
       {/* Keyboard users can jump straight past the navigation */}
-      <a
-        href="#main"
-        className="sr-only rounded-full bg-white px-4 py-2 text-sm font-medium text-ink shadow-lift focus:not-sr-only focus:fixed focus:left-6 focus:top-6 focus:z-70"
-      >
+      <a href="#main" className="skip-link">
         Skip to content
       </a>
 
